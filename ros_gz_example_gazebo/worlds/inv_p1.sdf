@@ -1,235 +1,103 @@
 <?xml version="1.0" ?>
+<!--
+  Try sending commands:
+    gz topic -t "/model/diff_drive/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 1.0}, angular: {z: -0.1}"
+    ros2 topic pub /diff_drive/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.1}}"
+  Listen to odometry:
+    gz topic -e -t /model/diff_drive/odometry
+    ros2 topic echo /model/diff_drive/odometry
+-->
 <sdf version="1.8">
-    <world name="pendulum_world">
-        <physics name="1ms" type="ignored">
-            <max_step_size>0.001</max_step_size>
-            <real_time_factor>1.0</real_time_factor>
-        </physics>
-        <plugin
-            filename="libignition-gazebo-physics-system.so"
-            name="ignition::gazebo::systems::Physics">
-        </plugin>
-        <plugin
-            filename="libignition-gazebo-user-commands-system.so"
-            name="ignition::gazebo::systems::UserCommands">
-        </plugin>
-        <plugin
-            filename="libignition-gazebo-scene-broadcaster-system.so"
-            name="ignition::gazebo::systems::SceneBroadcaster">
-        </plugin>
+  <world name="pendulum_world">
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="BasicSystem"
+      name="ros_gz_example_gazebo::BasicSystem">
+    </plugin>
+    <plugin
+      filename="FullSystem"
+      name="ros_gz_example_gazebo::FullSystem">
+    </plugin>
 
-        <light type="directional" name="sun">
-            <cast_shadows>true</cast_shadows>
-            <pose>0 0 10 0 0 0</pose>
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
             <diffuse>0.8 0.8 0.8 1</diffuse>
-            <specular>0.2 0.2 0.2 1</specular>
-            <attenuation>
-                <range>1000</range>
-                <constant>0.9</constant>
-                <linear>0.01</linear>
-                <quadratic>0.001</quadratic>
-            </attenuation>
-            <direction>-0.5 0.1 -0.9</direction>
-        </light>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
 
-        <model name="ground_plane">
-            <static>true</static>
-            <link name="link">
-                <collision name="collision">
-                <geometry>
-                    <plane>
-                    <normal>0 0 1</normal>
-                    </plane>
-                </geometry>
-                </collision>
-                <visual name="visual">
-                <geometry>
-                    <plane>
-                    <normal>0 0 1</normal>
-                    <size>100 100</size>
-                    </plane>
-                </geometry>
-                <material>
-                    <ambient>0.8 0.8 0.8 1</ambient>
-                    <diffuse>0.8 0.8 0.8 1</diffuse>
-                    <specular>0.8 0.8 0.8 1</specular>
-                </material>
-                </visual>
-            </link>
-    	</model>
-	<model name='inverted_pendulum' canonical_link='staticbase'>
-		<pose relative_to='world'>0 0 0 0 0 0</pose>
-		<link name='staticbase'>
-			<static>true</static>
-			<pose relative_to='__model__'>0 0 0.015 0 0 0</pose>
-			<inertial>
-				<mass>10</mass>
-				<inertia>
-					<ixx>0.00035</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.00035</iyy>
-					<iyz>0</iyz>
-					<izz>0.000625</izz>
-				</inertia>
-			</inertial>
-			<visual name='visual'>
-				<geometry>
-					<cylinder>
-						<radius>0.2</radius>
-						<length>0.03</length>
-					</cylinder>
-				</geometry>
-				<material>
-					<ambient>1.0 1.0 1.0 0.5</ambient>
-					<diffuse>1.0 1.0 1.0 0.5</diffuse>
-					<specular>1.0 1.0 1.0 0.5</specular>
-				</material>
-			</visual>
-			<collision name='collision'>
-				<geometry>
-					<cylinder>
-						<radius>0.2</radius>
-						<length>0.03</length>
-					</cylinder>
-				</geometry>
-			</collision>
-		</link>
+    <model name="inverted_pendulum" canonical_link='staticbase'>
+      <self_collide>true</self_collide>
+      <pose relative_to='world'>0 0 0 0 0 0</pose>
+      <include merge="true">
+	      <uri>package://ros_gz_example_description/models/furuta</uri>
+      </include>
 
-		<link name='base'>
-			<pose relative_to='staticbase'>0 0 0.065 0 0 0</pose>
-			<inertial>
-				<mass>0.5</mass>
-				<inertia>
-					<ixx>0.00541666</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.00541666</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
-				</inertia>
-			</inertial>
-			<visual name='visual'>
-				<geometry>
-					<cylinder>
-						<radius>0.2</radius>
-						<length>0.1</length>
-					</cylinder>
-				</geometry>
-				<material>
-					<ambient>1.0 1.0 1.0 0.5</ambient>
-					<diffuse>1.0 1.0 1.0 1</diffuse>
-					<specular>1.0 1.0 1.0 1</specular>
-				</material>
-			</visual>
-			<collision name='collision'>
-				<geometry>
-					<cylinder>
-						<radius>0.2</radius>
-						<length>0.1</length>
-					</cylinder>
-				</geometry>
-			</collision>
-		</link>
-		<link name='rod1'>
-		<pose relative_to='base'>0.21 0 0.09 0 0 0</pose>
-			<inertial>
-				<mass>0.1</mass>
-				<inertia>
-					<ixx>0.000055833</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.000055833</iyy>
-					<iyz>0</iyz>
-					<izz>0.000005</izz>
-				</inertia>
-			</inertial>
-			<visual name='visual'>
-				<geometry>
-					<cylinder>
-						<radius>0.01</radius>
-						<length>0.08</length>
-					</cylinder>
-				</geometry>
-				<material>
-					<ambient>1.0 0.0 0.0 1</ambient>
-					<diffuse>1.0 0.0 0.0 1</diffuse>
-					<specular>1.0 0.0 0.0 1</specular>
-				</material>
-			</visual>
-			<collision name='collision'>
-				<geometry>
-					<cylinder>
-						<radius>0.05</radius>
-						<length>0.03</length>
-					</cylinder>
-				</geometry>
-			</collision>
-		</link>
+      <plugin
+        filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+      </plugin>
 
-		<link name='mass1'>
-		<pose relative_to='rod1'>0 0 0.04 0 0 0</pose>
-			<inertial>
-				<mass>0.1</mass>
-				<inertia>
-					<ixx>0.000016</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.000016</iyy>
-					<iyz>0</iyz>
-					<izz>0.000016</izz>
-				</inertia>
-			</inertial>
-			<visual name='visual'>
-				<geometry>
-					<sphere>
-						<radius>0.02</radius>
-					</sphere>
-				</geometry>
-				<material>
-					<ambient>1.0 0.0 0.0 1</ambient>
-					<diffuse>1.0 0.0 0.0 1</diffuse>
-					<specular>1.0 0.0 0.0 1</specular>
-				</material>
-			</visual>
-			<collision name='collision'>
-				<geometry>
-					<sphere>
-						<radius>0.02</radius>
-					</sphere>
-				</geometry>
-			</collision>
-		</link>
-		<joint name='base joint' type='revolute'>
-			<pose relative_to='base'/>
-			<parent>staticbase</parent>
-			<child>base</child>
-			<axis>
-				<xyz expressed_in='__model__'>0 0 1</xyz>
-				<limit>
-					<lower>-1.79769e+308</lower>
-					<upper>1.79769e+308</upper>
-				</limit>
-			</axis>
-		</joint>
-		<joint name='rod joint' type='revolute'>
-			<pose relative_to='rod1'>0 0 -0.04 0 0 0</pose>
-			<parent>base</parent>
-			<child>rod1</child>
-			<axis>
-				<xyz expressed_in='__model__'>1 0 0</xyz>
-				<limit>
-					<lower>-1.79769e+308</lower>
-					<upper>1.79769e+308</upper>
-				</limit>
-			</axis>
-		</joint>
-		<joint name='mass joint' type='fixed'>
-			<pose relative_to='mass1'/>
-			<parent>rod1</parent>
-			<child>mass1</child>
-		</joint>
+      <plugin
+        filename="gz-sim-pose-publisher-system"
+        name="gz::sim::systems::PosePublisher">
+        <publish_link_pose>true</publish_link_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <static_publisher>true</static_publisher>
+        <static_update_frequency>1</static_update_frequency>
+      </plugin>
 
-    	</model>
-    </world>
+    </model>
+
+  </world>
 </sdf>
