@@ -1,0 +1,13 @@
+error: patch failed: CMakeLists.txt:1
+error: CMakeLists.txt: patch does not apply
+[33mCMake Warning at cmake/cpptoml/CMakeLists.txt:81 (message):
+  CMake step [patch] for 'cpptoml-build' failed! Error code: 1! Build of
+  'cpptoml-build' might fail
+
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+
+[0m

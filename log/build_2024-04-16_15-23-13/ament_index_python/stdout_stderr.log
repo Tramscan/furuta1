@@ -1,0 +1,38 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating ament_index_python.egg-info
+writing ament_index_python.egg-info/PKG-INFO
+writing dependency_links to ament_index_python.egg-info/dependency_links.txt
+writing entry points to ament_index_python.egg-info/entry_points.txt
+writing requirements to ament_index_python.egg-info/requires.txt
+writing top-level names to ament_index_python.egg-info/top_level.txt
+writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+reading manifest file 'ament_index_python.egg-info/SOURCES.txt'
+writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/lib/python3.10/site-packages/ament_index_python.egg-link (link to .)
+Installing ament_index script to /home/nick/Robotics_Projects/furuta1/install/ament_index_python/bin
+
+Installed /home/nick/Robotics_Projects/furuta1/build/ament_index_python
+running symlink_data
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python
+creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python/environment
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/completion/ament_index-argcomplete.bash -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python/environment
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/completion/ament_index-argcomplete.zsh -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python/environment
+creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/resource/ament_index_python -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index/resource_index/packages

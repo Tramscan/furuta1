@@ -1,0 +1,35 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating ament_pclint.egg-info
+writing ament_pclint.egg-info/PKG-INFO
+writing dependency_links to ament_pclint.egg-info/dependency_links.txt
+writing entry points to ament_pclint.egg-info/entry_points.txt
+writing requirements to ament_pclint.egg-info/requires.txt
+writing top-level names to ament_pclint.egg-info/top_level.txt
+writing manifest file 'ament_pclint.egg-info/SOURCES.txt'
+reading manifest file 'ament_pclint.egg-info/SOURCES.txt'
+writing manifest file 'ament_pclint.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/ament_pclint/lib/python3.10/site-packages/ament_pclint.egg-link (link to .)
+Installing ament_pclint script to /home/nick/Robotics_Projects/furuta1/install/ament_pclint/bin
+
+Installed /home/nick/Robotics_Projects/furuta1/build/ament_pclint
+running symlink_data
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_pclint/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_pclint/share/ament_pclint
+creating /home/nick/Robotics_Projects/furuta1/install/ament_pclint/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_pclint/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_pclint/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_pclint/resource/ament_pclint -> /home/nick/Robotics_Projects/furuta1/install/ament_pclint/share/ament_index/resource_index/packages

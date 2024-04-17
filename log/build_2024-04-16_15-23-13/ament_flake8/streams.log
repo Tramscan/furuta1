@@ -1,0 +1,37 @@
+[0.526s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_flake8': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_flake8/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_flake8/build --no-deps symlink_data
+[0.704s] running develop
+[0.704s] /home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.704s] !!
+[0.704s] 
+[0.704s]         ********************************************************************************
+[0.704s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.704s]         Instead, use pypa/build, pypa/installer or other
+[0.704s]         standards-based tools.
+[0.705s] 
+[0.705s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.705s]         ********************************************************************************
+[0.705s] 
+[0.705s] !!
+[0.705s]   easy_install.initialize_options(self)
+[0.789s] running egg_info
+[0.789s] creating ament_flake8.egg-info
+[0.795s] writing ament_flake8.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+[0.795s] writing entry points to ament_flake8.egg-info/entry_points.txt
+[0.795s] writing requirements to ament_flake8.egg-info/requires.txt
+[0.795s] writing top-level names to ament_flake8.egg-info/top_level.txt
+[0.795s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[0.807s] reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[0.808s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[0.814s] running build_ext
+[0.814s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages/ament_flake8.egg-link (link to .)
+[0.814s] Installing ament_flake8 script to /home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin
+[0.815s] 
+[0.815s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_flake8
+[0.815s] running symlink_data
+[0.815s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_flake8/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_flake8/share/ament_flake8
+[0.815s] creating /home/nick/Robotics_Projects/furuta1/install/ament_flake8/share/ament_index
+[0.815s] creating /home/nick/Robotics_Projects/furuta1/install/ament_flake8/share/ament_index/resource_index
+[0.815s] creating /home/nick/Robotics_Projects/furuta1/install/ament_flake8/share/ament_index/resource_index/packages
+[0.815s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_flake8/resource/ament_flake8 -> /home/nick/Robotics_Projects/furuta1/install/ament_flake8/share/ament_index/resource_index/packages
+[0.834s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_flake8/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_flake8/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/build/yaml_cpp_vendor/ament_cmake_core/yaml_cpp_vendorConfig-version.cmake

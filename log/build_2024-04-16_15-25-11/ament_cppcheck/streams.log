@@ -1,0 +1,19 @@
+[0.758s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/build --no-deps symlink_data
+[0.873s] running develop
+[0.874s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.874s]   warnings.warn(
+[0.921s] running egg_info
+[0.921s] writing ament_cppcheck.egg-info/PKG-INFO
+[0.921s] writing dependency_links to ament_cppcheck.egg-info/dependency_links.txt
+[0.921s] writing entry points to ament_cppcheck.egg-info/entry_points.txt
+[0.921s] writing requirements to ament_cppcheck.egg-info/requires.txt
+[0.922s] writing top-level names to ament_cppcheck.egg-info/top_level.txt
+[0.923s] reading manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[0.923s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[0.923s] running build_ext
+[0.924s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/lib/python3.10/site-packages/ament-cppcheck.egg-link (link to .)
+[0.924s] Installing ament_cppcheck script to /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/bin
+[0.924s] 
+[0.924s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck
+[0.924s] running symlink_data
+[0.938s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck' returned '0': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/build --no-deps symlink_data

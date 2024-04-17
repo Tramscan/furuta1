@@ -1,0 +1,65 @@
+[0.031s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c -- -j16 -l16
+[0.061s] [  4%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_config.cpp.o[0m
+[0.061s] [  9%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_notification_info.cpp.o[0m
+[0.061s] [ 13%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_client.cpp.o[0m
+[0.061s] [ 22%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_request_header.cpp.o[0m
+[0.061s] [ 22%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_listener.cpp.o[0m
+[0.062s] [ 27%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_node.cpp.o[0m
+[0.062s] [ 31%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_publisher.cpp.o[0m
+[0.062s] [ 36%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_response_header.cpp.o[0m
+[0.065s] [ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_runtime.cpp.o[0m
+[0.068s] [ 45%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_subscriber.cpp.o[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_server.cpp.o[0m
+[0.117s] [ 54%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_user_trigger.cpp.o[0m
+[0.143s] [ 59%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_wait_set.cpp.o[0m
+[0.174s] [ 63%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_chunk.cpp.o[0m
+[0.174s] [ 68%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c2cpp_enum_translation.cpp.o[0m
+[0.222s] [ 72%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_log.cpp.o[0m
+[0.542s] [ 77%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_enum_translation.cpp.o[0m
+[0.585s] [ 81%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_publisher.cpp.o[0m
+[0.627s] [ 86%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_subscriber.cpp.o[0m
+[0.730s] [ 90%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_service_description_translation.cpp.o[0m
+[0.747s] [ 95%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_service_discovery.cpp.o[0m
+[1.274s] [100%] [32m[1mLinking CXX shared library libiceoryx_binding_c.so[0m
+[1.350s] [100%] Built target iceoryx_binding_c
+[1.358s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c -- -j16 -l16
+[1.403s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c
+[1.419s] -- Install configuration: ""
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/libiceoryx_binding_c.so
+[1.419s] -- Set runtime path of "/home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/libiceoryx_binding_c.so" to ""
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/chunk.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/node.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/service_description.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/runtime.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/response_header.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/server.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/listener.h
+[1.419s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/service_discovery.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/notification_info.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/user_trigger.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/config.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/cpp2c_publisher.hpp
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/cpp2c_waitset.hpp
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/cpp2c_enum_translation.hpp
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/c2cpp_enum_translation.hpp
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/c2cpp_binding.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/cpp2c_service_description_translation.hpp
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/internal/cpp2c_subscriber.hpp
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/publisher.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/api.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/client.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/log.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/request_header.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/enums.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/wait_set.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/subscriber.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/include/iceoryx/v2.0.5/iceoryx_binding_c/types.h
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfigVersion.cmake
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfig.cmake
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets.cmake
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets-noconfig.cmake
+[1.420s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/share/doc/iceoryx_binding_c/LICENSE
+[1.468s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/iceoryx_binding_c

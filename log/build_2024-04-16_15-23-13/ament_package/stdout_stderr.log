@@ -1,0 +1,32 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating ament_package.egg-info
+writing ament_package.egg-info/PKG-INFO
+writing dependency_links to ament_package.egg-info/dependency_links.txt
+writing top-level names to ament_package.egg-info/top_level.txt
+writing manifest file 'ament_package.egg-info/SOURCES.txt'
+reading manifest file 'ament_package.egg-info/SOURCES.txt'
+writing manifest file 'ament_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/ament_package/lib/python3.10/site-packages/ament_package.egg-link (link to .)
+
+Installed /home/nick/Robotics_Projects/furuta1/build/ament_package
+running symlink_data
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_package/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_package/share/ament_package
+creating /home/nick/Robotics_Projects/furuta1/install/ament_package/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_package/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_package/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_package/resource/ament_package -> /home/nick/Robotics_Projects/furuta1/install/ament_package/share/ament_index/resource_index/packages

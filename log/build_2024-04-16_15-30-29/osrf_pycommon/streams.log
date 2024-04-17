@@ -1,0 +1,101 @@
+[0.727s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/osrf_pycommon': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/prefix_override:/home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build
+[0.863s] running develop
+[0.864s] /home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.864s] !!
+[0.864s] 
+[0.864s]         ********************************************************************************
+[0.864s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.864s]         Instead, use pypa/build, pypa/installer or other
+[0.864s]         standards-based tools.
+[0.864s] 
+[0.864s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.864s]         ********************************************************************************
+[0.865s] 
+[0.865s] !!
+[0.865s]   easy_install.initialize_options(self)
+[0.946s] Removing /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon.egg-link (link to .)
+[0.962s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/osrf_pycommon' returned '0': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/prefix_override:/home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build
+[0.963s] Invoking command in '/home/nick/Robotics_Projects/furuta1/src/osrf/osrf_pycommon': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/prefix_override:/home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build install --record /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/install.log --single-version-externally-managed install_data --force
+[1.074s] running egg_info
+[1.079s] writing ../../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+[1.080s] writing requirements to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+[1.080s] writing top-level names to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+[1.091s] reading manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.091s] reading manifest template 'MANIFEST.in'
+[1.092s] adding license file 'LICENSE'
+[1.092s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.092s] running build
+[1.092s] running build_py
+[1.092s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build
+[1.092s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib
+[1.092s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon
+[1.092s] copying osrf_pycommon/__init__.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon
+[1.093s] copying osrf_pycommon/terminal_utils.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon
+[1.093s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] copying osrf_pycommon/process_utils/get_loop_impl.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] copying osrf_pycommon/process_utils/__init__.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] copying osrf_pycommon/process_utils/async_execute_process.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] copying osrf_pycommon/process_utils/execute_process_nopty.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] copying osrf_pycommon/process_utils/impl.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] copying osrf_pycommon/process_utils/execute_process_pty.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.093s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.093s] copying osrf_pycommon/cli_utils/__init__.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.093s] copying osrf_pycommon/cli_utils/common.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.093s] copying osrf_pycommon/cli_utils/verb_pattern.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.094s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.094s] copying osrf_pycommon/terminal_color/windows.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.094s] copying osrf_pycommon/terminal_color/__init__.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.094s] copying osrf_pycommon/terminal_color/impl.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.094s] copying osrf_pycommon/terminal_color/ansi_re.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.094s] creating /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.094s] copying osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.094s] copying osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.095s] running install
+[1.097s] running install_lib
+[1.103s] creating /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon
+[1.103s] creating /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/get_loop_impl.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/__init__.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_nopty.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] creating /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/impl.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_pty.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/__init__.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_utils.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon
+[1.104s] creating /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[1.104s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/__init__.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[1.105s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/common.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[1.105s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/verb_pattern.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[1.105s] creating /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[1.105s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/windows.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[1.105s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/__init__.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[1.105s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/impl.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[1.105s] copying /home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/ansi_re.py -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[1.105s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/get_loop_impl.py to get_loop_impl.cpython-310.pyc
+[1.106s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/__init__.py to __init__.cpython-310.pyc
+[1.106s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process.py to async_execute_process.cpython-310.pyc
+[1.106s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/execute_process_nopty.py to execute_process_nopty.cpython-310.pyc
+[1.107s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py to __init__.cpython-310.pyc
+[1.107s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py to impl.cpython-310.pyc
+[1.107s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/impl.py to impl.cpython-310.pyc
+[1.108s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/process_utils/execute_process_pty.py to execute_process_pty.cpython-310.pyc
+[1.108s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/__init__.py to __init__.cpython-310.pyc
+[1.108s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_utils.py to terminal_utils.cpython-310.pyc
+[1.108s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils/__init__.py to __init__.cpython-310.pyc
+[1.108s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils/common.py to common.cpython-310.pyc
+[1.109s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/cli_utils/verb_pattern.py to verb_pattern.cpython-310.pyc
+[1.109s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color/windows.py to windows.cpython-310.pyc
+[1.110s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color/__init__.py to __init__.cpython-310.pyc
+[1.110s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color/impl.py to impl.cpython-310.pyc
+[1.111s] byte-compiling /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon/terminal_color/ansi_re.py to ansi_re.cpython-310.pyc
+[1.111s] running install_data
+[1.111s] copying package.xml -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/share/osrf_pycommon
+[1.111s] copying resource/osrf_pycommon -> /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/share/ament_index/resource_index/packages
+[1.111s] running install_egg_info
+[1.118s] Copying ../../../build/osrf_pycommon/osrf_pycommon.egg-info to /home/nick/Robotics_Projects/furuta1/install/osrf_pycommon/lib/python3.10/site-packages/osrf_pycommon-2.1.4-py3.10.egg-info
+[1.118s] running install_scripts
+[1.178s] writing list of installed files to '/home/nick/Robotics_Projects/furuta1/build/osrf_pycommon/install.log'

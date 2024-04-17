@@ -1,0 +1,55 @@
+[0.006s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/fastrtps': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/foonathan_memory_vendor:/home/nick/Robotics_Projects/furuta1/install/fastcdr LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/fastcdr/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/foonathan_memory_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/foonathan_memory_vendor/lib/pkgconfig /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/eProsima/Fast-DDS -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/fastrtps
+[0.012s] -- Setting build type to 'Release' as none was specified.
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.258s] -- Version: 2.6.7
+[0.260s] -- Performing Test SUPPORTS_CXX20
+[0.322s] -- Performing Test SUPPORTS_CXX20 - Success
+[0.323s] -- Performing Test SUPPORTS_CXX17
+[0.386s] -- Performing Test SUPPORTS_CXX17 - Success
+[0.386s] -- Performing Test SUPPORTS_CXX14
+[0.439s] -- Performing Test SUPPORTS_CXX14 - Success
+[0.439s] -- Performing Test SUPPORTS_CXX1Y
+[0.493s] -- Performing Test SUPPORTS_CXX1Y - Success
+[0.494s] -- Performing Test SUPPORTS_CXX11
+[0.545s] -- Performing Test SUPPORTS_CXX11 - Success
+[0.546s] -- Found fastcdr
+[0.557s] -- Found Asio 1.18.1: /usr/include
+[0.557s] -- Found Asio
+[0.572s] -- Found TinyXML2
+[0.573s] -- Found foonathan_memory: /opt/ros/humble/lib/foonathan_memory/cmake
+[0.574s] -- Looking for pthread.h
+[0.622s] -- Looking for pthread.h - found
+[0.623s] -- Looking for pthread_kill
+[0.644s] -- Looking for pthread_kill - not found
+[0.645s] -- Looking for pthread_create in pthreads
+[0.685s] -- Looking for pthread_create in pthreads - not found
+[0.685s] -- Looking for pthread_create in pthread
+[0.728s] -- Looking for pthread_create in pthread - found
+[0.729s] -- Found Threads: TRUE  
+[1.459s] -- Thirdparty/boost compiled OK
+[1.514s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.514s] -- OpenSSL library 3.0.2 found...
+[1.517s] -- Performing Test ATOMIC_WITHOUT_LIB
+[1.623s] -- Performing Test ATOMIC_WITHOUT_LIB - Success
+[1.623s] -- Looking for __atomic_load_8 in atomic
+[1.681s] -- Looking for __atomic_load_8 in atomic - found
+[1.681s] -- Performing Test ATOMIC_WITH_LIB
+[1.769s] -- Performing Test ATOMIC_WITH_LIB - Success
+[2.243s] -- Framework's shared_mutex is PTHREAD_RWLOCK_PREFER_READER_NP
+[2.244s] -- Performing Test HAS_VERSION_SCRIPT_SUPPORT
+[2.300s] -- Performing Test HAS_VERSION_SCRIPT_SUPPORT - Success
+[2.300s] -- Using linker version script to select exported symbols
+[2.306s] -- Configuring done
+[2.341s] -- Generating done
+[2.344s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/fastrtps

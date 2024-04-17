@@ -1,0 +1,35 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating ament_pyflakes.egg-info
+writing ament_pyflakes.egg-info/PKG-INFO
+writing dependency_links to ament_pyflakes.egg-info/dependency_links.txt
+writing entry points to ament_pyflakes.egg-info/entry_points.txt
+writing requirements to ament_pyflakes.egg-info/requires.txt
+writing top-level names to ament_pyflakes.egg-info/top_level.txt
+writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+reading manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes.egg-link (link to .)
+Installing ament_pyflakes script to /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/bin
+
+Installed /home/nick/Robotics_Projects/furuta1/build/ament_pyflakes
+running symlink_data
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_pyflakes/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/share/ament_pyflakes
+creating /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_pyflakes/resource/ament_pyflakes -> /home/nick/Robotics_Projects/furuta1/install/ament_pyflakes/share/ament_index/resource_index/packages

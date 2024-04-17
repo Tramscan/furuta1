@@ -1,0 +1,36 @@
+[1.011s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_lint': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_lint/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_lint/build --no-deps symlink_data
+[1.456s] running develop
+[1.456s] /home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.456s] !!
+[1.456s] 
+[1.456s]         ********************************************************************************
+[1.456s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.456s]         Instead, use pypa/build, pypa/installer or other
+[1.456s]         standards-based tools.
+[1.456s] 
+[1.456s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.456s]         ********************************************************************************
+[1.457s] 
+[1.457s] !!
+[1.457s]   easy_install.initialize_options(self)
+[1.774s] running egg_info
+[1.774s] creating ament_lint.egg-info
+[1.783s] writing ament_lint.egg-info/PKG-INFO
+[1.784s] writing dependency_links to ament_lint.egg-info/dependency_links.txt
+[1.784s] writing entry points to ament_lint.egg-info/entry_points.txt
+[1.784s] writing requirements to ament_lint.egg-info/requires.txt
+[1.784s] writing top-level names to ament_lint.egg-info/top_level.txt
+[1.784s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[1.806s] reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+[1.806s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[1.818s] running build_ext
+[1.818s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages/ament_lint.egg-link (link to .)
+[1.819s] 
+[1.819s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_lint
+[1.819s] running symlink_data
+[1.819s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_lint/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_lint/share/ament_lint
+[1.819s] creating /home/nick/Robotics_Projects/furuta1/install/ament_lint/share/ament_index
+[1.819s] creating /home/nick/Robotics_Projects/furuta1/install/ament_lint/share/ament_index/resource_index
+[1.819s] creating /home/nick/Robotics_Projects/furuta1/install/ament_lint/share/ament_index/resource_index/packages
+[1.819s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_lint/resource/ament_lint -> /home/nick/Robotics_Projects/furuta1/install/ament_lint/share/ament_index/resource_index/packages
+[1.858s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ament_lint' returned '0': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_lint/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_lint/build --no-deps symlink_data

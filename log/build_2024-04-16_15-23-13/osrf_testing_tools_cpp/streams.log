@@ -1,0 +1,142 @@
+[0.373s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp
+[0.407s] -- The C compiler identification is GNU 11.4.0
+[0.444s] -- The CXX compiler identification is GNU 11.4.0
+[0.448s] -- Detecting C compiler ABI info
+[0.490s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.570s] -- Detecting CXX compiler ABI info - done
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.587s] -- Detecting CXX compile features
+[0.587s] -- Detecting CXX compile features - done
+[0.594s] -- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+[0.596s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.598s] -- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR) 
+[0.599s] -- Found Backward: /home/nick/Robotics_Projects/furuta1/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp  
+[0.605s] -- googletest version '1.10.0.2' selected, of versions: '1.10.0;1.10.0.1;1.10.0.2'
+[0.605s] -- building googletest from '/home/nick/Robotics_Projects/furuta1/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.2.tar.gz'...
+[0.640s] -- Configuring done
+[0.643s] -- Generating done
+[0.643s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted
+[0.712s] [ 11%] Creating directories for 'googletest'
+[0.933s] [ 22%] Performing download step (verify and extract) for 'googletest'
+[0.952s] -- verifying file...
+[0.952s]      file='/home/nick/Robotics_Projects/furuta1/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.2.tar.gz'
+[0.958s] -- verifying file... done
+[0.970s] -- extracting...
+[0.970s]      src='/home/nick/Robotics_Projects/furuta1/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.2.tar.gz'
+[0.970s]      dst='/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-1.10.0.2-src'
+[0.970s] -- extracting... [tar xfz]
+[1.018s] -- extracting... [analysis]
+[1.018s] -- extracting... [rename]
+[1.018s] -- extracting... [clean up]
+[1.018s] -- extracting... done
+[1.083s] [ 33%] No update step for 'googletest'
+[1.182s] [ 44%] No patch step for 'googletest'
+[1.286s] [ 55%] No configure step for 'googletest'
+[1.401s] [ 66%] No build step for 'googletest'
+[1.512s] [ 77%] No install step for 'googletest'
+[1.583s] [ 88%] No test step for 'googletest'
+[1.614s] [100%] Completed 'googletest'
+[1.691s] [100%] Built target googletest
+[1.747s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[1.748s] -- Looking for pthread.h
+[1.848s] -- Looking for pthread.h - found
+[1.849s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.898s] -- Found Threads: TRUE  
+[1.902s] -- Configuring done
+[1.924s] -- Generating done
+[1.927s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp
+[1.984s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp
+[1.985s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp -- -j16 -l16
+[2.016s] [  4%] [32mBuilding CXX object src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o[0m
+[2.017s] [  8%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/implementation_monitoring_override.cpp.o[0m
+[2.017s] [ 12%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o[0m
+[2.017s] [ 16%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o[0m
+[2.017s] [ 20%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o[0m
+[2.017s] [ 24%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o[0m
+[2.018s] [ 28%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/monitoring.cpp.o[0m
+[2.018s] [ 32%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/stack_trace.cpp.o[0m
+[2.019s] [ 40%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/testing_helpers.cpp.o[0m
+[2.019s] [ 40%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/verbosity.cpp.o[0m
+[2.025s] [ 44%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/register_hooks.cpp.o[0m
+[2.027s] [ 48%] [32mBuilding CXX object googletest-1.10.0.2-extracted/googletest-1.10.0.2-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.364s] [ 52%] [32m[1mLinking CXX executable test_runner[0m
+[2.431s] [ 52%] Built target test_runner
+[2.791s] [ 56%] [32m[1mLinking CXX shared library libmemory_tools.so[0m
+[2.857s] [ 56%] Built target memory_tools
+[2.870s] [ 60%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools_interpose.dir/memory_tools.cpp.o[0m
+[3.032s] [ 64%] [32m[1mLinking CXX shared library libmemory_tools_interpose.so[0m
+[3.098s] [ 64%] Built target memory_tools_interpose
+[4.007s] [ 68%] [32m[1mLinking CXX static library ../../../lib/libgtest.a[0m
+[4.274s] [ 68%] Built target gtest
+[4.286s] [ 72%] [32mBuilding CXX object googletest-1.10.0.2-extracted/googletest-1.10.0.2-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.955s] [ 76%] [32m[1mLinking CXX static library ../../../lib/libgtest_main.a[0m
+[5.175s] [ 76%] Built target gtest_main
+[5.319s] [ 80%] [32mBuilding CXX object test/test_runner/CMakeFiles/test_parse_environment_variable.dir/test_parse_environment_variable.cpp.o[0m
+[5.335s] [ 84%] [32mBuilding CXX object test/memory_tools/CMakeFiles/test_memory_tools.dir/test_memory_tools.cpp.o[0m
+[5.351s] [ 88%] [32mBuilding CXX object test/test_runner/CMakeFiles/assert_env_vars.dir/assert_env_vars.cpp.o[0m
+[6.477s] [ 92%] [32m[1mLinking CXX executable test_parse_environment_variable[0m
+[6.748s] [ 96%] [32m[1mLinking CXX executable assert_env_vars[0m
+[6.754s] [ 96%] Built target test_parse_environment_variable
+[7.111s] [ 96%] Built target assert_env_vars
+[7.232s] [100%] [32m[1mLinking CXX executable test_memory_tools[0m
+[7.507s] [100%] Built target test_memory_tools
+[7.662s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp -- -j16 -l16
+[8.099s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp
+[8.184s] -- Install configuration: ""
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfig.cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfigVersion.cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.8.1.tar.gz
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.7.0.tar.gz
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.tar.gz
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/googletest-external-project-add.cmake.in
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.2.tar.gz
+[8.184s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_require_googletest.cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_extract_and_build_googletest.cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_get_googletest_versions.cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_add_test.cmake
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp
+[8.184s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/scope_exit.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/register_hooks.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/stack_trace.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/initialize.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/verbosity.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/testing_helpers.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/is_working.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/gtest_quickstart.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/monitoring.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/visibility_control.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools_service.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/demangle.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/macros.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/variant.hpp
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/LICENSE.md
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/README.md
+[8.185s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/variant_helper.hpp
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/package.xml
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/lib/libmemory_tools.so
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport.cmake
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport-noconfig.cmake
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so
+[8.186s] -- Set runtime path of "/home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so" to ""
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport.cmake
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport-noconfig.cmake
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/lib/osrf_testing_tools_cpp/test_runner
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport.cmake
+[8.186s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport-noconfig.cmake
+[8.217s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/osrf_testing_tools_cpp

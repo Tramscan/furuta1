@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/build/ament_cmake_clang_tidy/ament_cmake_core/ament_cmake_clang_tidyConfig-version.cmake

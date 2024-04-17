@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/src/ament/ament_lint/ament_cmake_clang_format/cmake/ament_clang_format.cmake

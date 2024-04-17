@@ -1,0 +1,19 @@
+[0.791s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_mypy': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint PATH=/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_mypy/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_mypy/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_mypy/build --no-deps symlink_data
+[0.907s] running develop
+[0.907s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.907s]   warnings.warn(
+[0.961s] running egg_info
+[0.961s] writing ament_mypy.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ament_mypy.egg-info/dependency_links.txt
+[0.961s] writing entry points to ament_mypy.egg-info/entry_points.txt
+[0.961s] writing requirements to ament_mypy.egg-info/requires.txt
+[0.961s] writing top-level names to ament_mypy.egg-info/top_level.txt
+[0.962s] reading manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[0.963s] writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[0.963s] running build_ext
+[0.964s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_mypy/lib/python3.10/site-packages/ament-mypy.egg-link (link to .)
+[0.964s] Installing ament_mypy script to /home/nick/Robotics_Projects/furuta1/install/ament_mypy/bin
+[0.964s] 
+[0.964s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_mypy
+[0.965s] running symlink_data
+[1.023s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint PATH=/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_mypy/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_mypy/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_mypy/build --no-deps symlink_data

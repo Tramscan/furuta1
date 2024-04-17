@@ -1,0 +1,7 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/mcap.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/lz4.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/lz4frame.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/lz4hc.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/mcap.dir/_deps/lz4-src/lib/xxhash.c.o[0m
+[100%] [32m[1mLinking CXX shared library libmcap.so[0m
+[100%] Built target mcap

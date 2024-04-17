@@ -1,0 +1,4 @@
+Invoking command in '/home/nick/Robotics_Projects/furuta1/build/gtest_vendor': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/gtest_vendor -- -j16 -l16
+Invoked command in '/home/nick/Robotics_Projects/furuta1/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/gtest_vendor -- -j16 -l16
+Invoking command in '/home/nick/Robotics_Projects/furuta1/build/gtest_vendor': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/gtest_vendor
+Invoked command in '/home/nick/Robotics_Projects/furuta1/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/gtest_vendor

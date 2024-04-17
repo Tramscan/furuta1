@@ -1,0 +1,26 @@
+[0.442s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor -- -j16 -l16
+[0.579s] [100%] Built target benchmark-1.5.3
+[0.581s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor -- -j16 -l16
+[0.599s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor
+[0.610s] -- Install configuration: ""
+[0.611s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[0.612s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include
+[0.612s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include/benchmark
+[0.612s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include/benchmark/benchmark.h
+[0.612s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib
+[0.613s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so.1
+[0.613s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/pkgconfig
+[0.613s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/pkgconfig/benchmark.pc
+[0.613s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake
+[0.614s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark
+[0.614s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[0.614s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets.cmake
+[0.614s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfig.cmake
+[0.614s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[0.615s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so.1
+[0.615s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so.1.5.3
+[0.615s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so
+[0.615s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so
+[0.615s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so.1.5.3
+[0.616s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/share/google_benchmark_vendor/package.xml
+[0.651s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor

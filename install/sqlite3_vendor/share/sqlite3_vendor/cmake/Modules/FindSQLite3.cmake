@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/src/ros2/rosbag2/sqlite3_vendor/cmake/Modules/FindSQLite3.cmake

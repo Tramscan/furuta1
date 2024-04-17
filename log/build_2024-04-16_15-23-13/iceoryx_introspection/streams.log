@@ -1,0 +1,16 @@
+[0.134s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/iceoryx_introspection': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs:/opt/ros/humble LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib:${LD_LIBRARY_PATH} PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/eclipse-iceoryx/iceoryx/tools/introspection -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/iceoryx_introspection
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.371s] -- Configuring done
+[0.374s] -- Generating done
+[0.374s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/iceoryx_introspection

@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/src/ament/ament_lint/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake

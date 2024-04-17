@@ -1,0 +1,35 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating tracetools_trace.egg-info
+writing tracetools_trace.egg-info/PKG-INFO
+writing dependency_links to tracetools_trace.egg-info/dependency_links.txt
+writing entry points to tracetools_trace.egg-info/entry_points.txt
+writing requirements to tracetools_trace.egg-info/requires.txt
+writing top-level names to tracetools_trace.egg-info/top_level.txt
+writing manifest file 'tracetools_trace.egg-info/SOURCES.txt'
+reading manifest file 'tracetools_trace.egg-info/SOURCES.txt'
+writing manifest file 'tracetools_trace.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/lib/python3.10/site-packages/tracetools_trace.egg-link (link to .)
+Installing trace script to /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/lib/tracetools_trace
+
+Installed /home/nick/Robotics_Projects/furuta1/build/tracetools_trace
+running symlink_data
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/tracetools_trace/package.xml -> /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/share/tracetools_trace
+creating /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/tracetools_trace/resource/tracetools_trace -> /home/nick/Robotics_Projects/furuta1/install/tracetools_trace/share/ament_index/resource_index/packages

@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh

@@ -1,0 +1,65 @@
+[0.193s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr': /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/fastcdr
+[0.383s] -- Setting build type to 'Release' as none was specified.
+[0.383s] -- The C compiler identification is GNU 11.4.0
+[0.383s] -- The CXX compiler identification is GNU 11.4.0
+[0.383s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.383s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.383s] -- Configuring Fast CDR
+[0.384s] -- Version: 1.0.24
+[0.384s] -- To change the version modify the file configure.ac
+[0.384s] -- Performing Test SUPPORTS_CXX14
+[0.423s] -- Performing Test SUPPORTS_CXX14 - Success
+[0.425s] -- Looking for sys/types.h
+[0.475s] -- Looking for sys/types.h - found
+[0.475s] -- Looking for stdint.h
+[0.526s] -- Looking for stdint.h - found
+[0.526s] -- Looking for stddef.h
+[0.580s] -- Looking for stddef.h - found
+[0.580s] -- Check size of long double
+[0.639s] -- Check size of long double - done
+[0.645s] -- Check size of __float128
+[0.830s] -- Check size of __float128 - done
+[0.848s] -- Configuring done
+[0.862s] -- Generating done
+[0.863s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/fastcdr
+[0.868s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr' returned '0': /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/fastcdr
+[0.878s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/fastcdr -- -j16 -l16
+[1.010s] [ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[1.031s] [ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[1.037s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[1.052s] [ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[1.105s] [ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[1.129s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[2.201s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[2.268s] [100%] Built target fastcdr
+[2.278s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr' returned '0': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/fastcdr -- -j16 -l16
+[2.306s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/fastcdr
+[2.312s] -- Install configuration: "Release"
+[2.312s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/share/fastcdr/LICENSE
+[2.312s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr
+[2.313s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/exceptions
+[2.313s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[2.313s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[2.313s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[2.313s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/FastBuffer.h
+[2.313s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[2.314s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[2.314s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/FastCdr.h
+[2.315s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/Cdr.h
+[2.315s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/include/fastcdr/config.h
+[2.315s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/libfastcdr.so.1.0.24
+[2.316s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/libfastcdr.so.1
+[2.316s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/libfastcdr.so
+[2.316s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/cmake/fastcdr/fastcdr-dynamic-targets.cmake
+[2.317s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/cmake/fastcdr/fastcdr-dynamic-targets-release.cmake
+[2.317s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[2.317s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[2.321s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr' returned '0': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/fastcdr

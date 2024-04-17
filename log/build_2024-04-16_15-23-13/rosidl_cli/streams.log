@@ -1,0 +1,41 @@
+[1.471s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/rosidl_cli': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_xmllint:/home/nick/Robotics_Projects/furuta1/install/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/nick/Robotics_Projects/furuta1/install/ament_xmllint/bin:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/bin:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/bin:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/rosidl_cli/prefix_override:/home/nick/Robotics_Projects/furuta1/install/rosidl_cli/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_xmllint:/home/nick/Robotics_Projects/furuta1/install/ament_xmllint/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/build --no-deps symlink_data
+[1.712s] running develop
+[1.712s] /home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.712s] !!
+[1.712s] 
+[1.712s]         ********************************************************************************
+[1.712s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.712s]         Instead, use pypa/build, pypa/installer or other
+[1.712s]         standards-based tools.
+[1.713s] 
+[1.713s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.713s]         ********************************************************************************
+[1.713s] 
+[1.713s] !!
+[1.713s]   easy_install.initialize_options(self)
+[1.874s] running egg_info
+[1.874s] creating rosidl_cli.egg-info
+[1.892s] writing rosidl_cli.egg-info/PKG-INFO
+[1.893s] writing dependency_links to rosidl_cli.egg-info/dependency_links.txt
+[1.893s] writing entry points to rosidl_cli.egg-info/entry_points.txt
+[1.894s] writing requirements to rosidl_cli.egg-info/requires.txt
+[1.894s] writing top-level names to rosidl_cli.egg-info/top_level.txt
+[1.894s] writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[1.924s] reading manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[1.924s] writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[1.937s] running build_ext
+[1.937s] Creating /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/lib/python3.10/site-packages/rosidl_cli.egg-link (link to .)
+[1.939s] Installing rosidl script to /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/bin
+[1.939s] 
+[1.939s] Installed /home/nick/Robotics_Projects/furuta1/build/rosidl_cli
+[1.939s] running symlink_data
+[1.939s] creating /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/ament_index
+[1.939s] creating /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/ament_index/resource_index
+[1.939s] creating /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/ament_index/resource_index/packages
+[1.939s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/resource/rosidl_cli -> /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/ament_index/resource_index/packages
+[1.939s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/package.xml -> /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/rosidl_cli
+[1.939s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/resource/package.dsv -> /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/rosidl_cli
+[1.939s] creating /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/rosidl_cli/environment
+[1.939s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/completion/rosidl-argcomplete.bash -> /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/rosidl_cli/environment
+[1.939s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/completion/rosidl-argcomplete.zsh -> /home/nick/Robotics_Projects/furuta1/install/rosidl_cli/share/rosidl_cli/environment
+[1.972s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/rosidl_cli' returned '0': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_xmllint:/home/nick/Robotics_Projects/furuta1/install/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/nick/Robotics_Projects/furuta1/install/ament_xmllint/bin:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/bin:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/bin:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/rosidl_cli/prefix_override:/home/nick/Robotics_Projects/furuta1/install/rosidl_cli/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_xmllint:/home/nick/Robotics_Projects/furuta1/install/ament_xmllint/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/rosidl_cli/build --no-deps symlink_data

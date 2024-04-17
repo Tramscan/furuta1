@@ -1,0 +1,57 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh/dependencies/cpptoml/download
+[ 11%] Performing update step for 'ext_cpptoml'
+[ 22%] No patch step for 'ext_cpptoml'
+[ 33%] No configure step for 'ext_cpptoml'
+[ 44%] No build step for 'ext_cpptoml'
+[ 55%] No install step for 'ext_cpptoml'
+[ 66%] No test step for 'ext_cpptoml'
+[ 77%] Completed 'ext_cpptoml'
+[100%] Built target ext_cpptoml
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh/dependencies/cpptoml/build
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh/dependencies/install/include/cpptoml.h
+-- Up-to-date: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh/dependencies/install/lib/cmake/cpptoml/cpptomlTargets.cmake
+-- Up-to-date: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh/dependencies/install/lib/cmake/cpptoml/cpptomlConfigVersion.cmake
+-- Up-to-date: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh/dependencies/install/lib/cmake/cpptoml/cpptomlConfig.cmake
+-- [i] <<<<<<<<<<<<< Start iceoryx_posh configuration: >>>>>>>>>>>>>
+-- [i] Using m:n communication!
+-- [i] IOX_MAX_PUBLISHERS:512
+-- [i] IOX_MAX_SUBSCRIBERS:1024
+-- [i] IOX_MAX_INTERFACE_NUMBER:4
+-- [i] IOX_MAX_SUBSCRIBERS_PER_PUBLISHER:256
+-- [i] IOX_MAX_CHUNKS_ALLOCATED_PER_PUBLISHER_SIMULTANEOUSLY:8
+-- [i] IOX_MAX_PUBLISHER_HISTORY:16
+-- [i] IOX_MAX_CHUNKS_HELD_PER_SUBSCRIBER_SIMULTANEOUSLY:256
+-- [i] <<<<<<<<<<<<<< End iceoryx_posh configuration: >>>>>>>>>>>>>>
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/iceoryx_posh
+[35m[1mConsolidate compiler generated dependencies of target iceoryx_posh[0m
+[  2%] [32mBuilding CXX object CMakeFiles/iceoryx_posh.dir/source/runtime/ipc_runtime_interface.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/iceoryx_posh.dir/source/version/version_info.cpp.o[0m
+[  3%] [32m[1mLinking CXX shared library libiceoryx_posh.so[0m
+[ 68%] Built target iceoryx_posh
+[35m[1mConsolidate compiler generated dependencies of target iceoryx_posh_gateway[0m
+[35m[1mConsolidate compiler generated dependencies of target iceoryx_posh_roudi[0m
+[ 69%] [32m[1mLinking CXX shared library libiceoryx_posh_gateway.so[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/application/iceoryx_roudi_app.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/application/roudi_app.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/roudi.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/process.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/process_manager.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/roudi_cmd_line_parser.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/iceoryx_posh_roudi.dir/source/roudi/roudi_cmd_line_parser_config_file_option.cpp.o[0m
+[ 77%] Built target iceoryx_posh_gateway
+[ 78%] [32m[1mLinking CXX shared library libiceoryx_posh_roudi.so[0m
+[ 92%] Built target iceoryx_posh_roudi
+[35m[1mConsolidate compiler generated dependencies of target iceoryx_posh_config[0m
+[ 93%] [32m[1mLinking CXX shared library libiceoryx_posh_config.so[0m
+[ 97%] Built target iceoryx_posh_config
+[35m[1mConsolidate compiler generated dependencies of target iox-roudi[0m
+[ 98%] [32m[1mLinking CXX executable iox-roudi[0m
+[100%] Built target iox-roudi

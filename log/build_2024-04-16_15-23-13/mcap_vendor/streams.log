@@ -1,0 +1,23 @@
+[0.034s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/mcap_vendor': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/zstd_vendor:/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/home/nick/Robotics_Projects/furuta1/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/zstd_vendor:/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/opt/ros/humble PYTHONPATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/nick/Robotics_Projects/furuta1/build/ament_package:/home/nick/Robotics_Projects/furuta1/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ros2/rosbag2/mcap_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/mcap_vendor
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- The ASM compiler identification is GNU
+[0.116s] -- Found assembler: /usr/bin/cc
+[0.118s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.216s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.8 (/home/nick/Robotics_Projects/furuta1/install/ament_cmake/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.448s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.466s] -- Found zstd_vendor: 0.15.9 (/home/nick/Robotics_Projects/furuta1/install/zstd_vendor/share/zstd_vendor/cmake)
+[0.475s] -- Found zstd: /usr/lib/x86_64-linux-gnu/libzstd.so (found version "1.4.8") 
+[3.043s] -- Configuring done
+[3.047s] -- Generating done
+[3.048s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/mcap_vendor

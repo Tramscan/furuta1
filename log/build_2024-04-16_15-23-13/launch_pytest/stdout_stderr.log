@@ -1,0 +1,42 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating launch_pytest.egg-info
+writing launch_pytest.egg-info/PKG-INFO
+writing dependency_links to launch_pytest.egg-info/dependency_links.txt
+writing entry points to launch_pytest.egg-info/entry_points.txt
+writing requirements to launch_pytest.egg-info/requires.txt
+writing top-level names to launch_pytest.egg-info/top_level.txt
+writing manifest file 'launch_pytest.egg-info/SOURCES.txt'
+reading manifest file 'launch_pytest.egg-info/SOURCES.txt'
+writing manifest file 'launch_pytest.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/lib/python3.10/site-packages/launch_pytest.egg-link (link to .)
+
+Installed /home/nick/Robotics_Projects/furuta1/build/launch_pytest
+running symlink_data
+creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/resource/launch_pytest -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/ament_index/resource_index/packages
+creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/lib/launch_pytest
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/package.xml -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest
+creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/test/launch_pytest/examples/function_scope.py -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/test/launch_pytest/examples/check_node_msgs.py -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/test/launch_pytest/examples/pytest_hello_world.py -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/test/launch_pytest/examples/module_scope.py -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples
+creating /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples/executables
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/launch_pytest/test/launch_pytest/examples/executables/talker.py -> /home/nick/Robotics_Projects/furuta1/install/launch_pytest/share/launch_pytest/examples/executables

@@ -1,0 +1,7 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/iceoryx_introspection.dir/source/introspection_app.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_introspection.dir/source/iceoryx_introspection_app.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libiceoryx_introspection.so[0m
+[ 60%] Built target iceoryx_introspection
+[ 80%] [32mBuilding CXX object CMakeFiles/iox-introspection-client.dir/source/introspection_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable iox-introspection-client[0m
+[100%] Built target iox-introspection-client

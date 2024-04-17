@@ -1,0 +1,57 @@
+[0.026s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/cyclonedds': CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs LD_LIBRARY_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_binding_c/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_posh/lib/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/x86_64-linux-gnu/pkgconfig:/home/nick/Robotics_Projects/furuta1/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/cyclonedds
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.067s] -- Detecting C compiler ABI info
+[0.111s] -- Detecting C compiler ABI info - done
+[0.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.116s] -- Detecting C compile features
+[0.116s] -- Detecting C compile features - done
+[0.116s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[0.118s] -- Looking for getopt.h
+[0.164s] -- Looking for getopt.h - found
+[0.216s] -- Building with OpenSSL support
+[0.221s] -- Looking for stdint.h
+[0.266s] -- Looking for stdint.h - found
+[0.267s] -- Looking for inttypes.h
+[0.314s] -- Looking for inttypes.h - found
+[0.315s] -- Looking for sys/types.h
+[0.361s] -- Looking for sys/types.h - found
+[0.362s] -- Looking for stdint.h
+[0.409s] -- Looking for stdint.h - found
+[0.409s] -- Looking for stddef.h
+[0.454s] -- Looking for stddef.h - found
+[0.454s] -- Check size of intmax_t
+[0.502s] -- Check size of intmax_t - done
+[0.503s] -- Looking for stpcpy
+[0.553s] -- Looking for stpcpy - found
+[0.553s] -- Looking for strlcpy
+[0.573s] -- Looking for strlcpy - not found
+[0.573s] -- Looking for strlcat
+[0.591s] -- Looking for strlcat - not found
+[0.592s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.636s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.636s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.678s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[0.678s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.721s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.724s] -- Looking for gethostname
+[0.769s] -- Looking for gethostname - found
+[0.770s] -- Looking for inet_ntop
+[0.815s] -- Looking for inet_ntop - found
+[0.816s] -- Looking for inet_pton
+[0.861s] -- Looking for inet_pton - found
+[0.861s] -- Looking for getaddrinfo
+[0.906s] -- Looking for getaddrinfo - found
+[0.907s] -- Looking for gethostbyname_r
+[0.953s] -- Looking for gethostbyname_r - found
+[0.953s] -- Check size of struct sockaddr_in6
+[0.999s] -- Check size of struct sockaddr_in6 - done
+[1.000s] -- Looking for pthread.h
+[1.044s] -- Looking for pthread.h - found
+[1.044s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.090s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.090s] -- Found Threads: TRUE  
+[1.090s] -- Looking for clock_gettime in c
+[1.134s] -- Looking for clock_gettime in c - found
+[1.293s] -- Configuring done
+[1.332s] -- Generating done
+[1.334s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/cyclonedds

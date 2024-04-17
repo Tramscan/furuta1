@@ -1,0 +1,4 @@
+Invoking command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/fastcdr -- -j16 -l16
+Invoked command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr' returned '0': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/fastcdr -- -j16 -l16
+Invoking command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/fastcdr
+Invoked command in '/home/nick/Robotics_Projects/furuta1/build/fastcdr' returned '0': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/fastcdr

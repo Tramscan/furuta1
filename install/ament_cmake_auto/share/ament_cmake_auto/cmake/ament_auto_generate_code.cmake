@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/src/ament/ament_cmake/ament_cmake_auto/cmake/ament_auto_generate_code.cmake

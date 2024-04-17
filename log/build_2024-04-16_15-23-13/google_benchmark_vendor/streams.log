@@ -1,0 +1,146 @@
+[0.373s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[0.411s] -- The CXX compiler identification is GNU 11.4.0
+[0.416s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.633s] -- Configuring done
+[0.636s] -- Generating done
+[0.636s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor
+[0.641s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[0.642s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor -- -j16 -l16
+[0.744s] [ 12%] [34m[1mCreating directories for 'benchmark-1.5.3'[0m
+[1.004s] [ 25%] [34m[1mPerforming download step (git clone) for 'benchmark-1.5.3'[0m
+[1.036s] Cloning into 'benchmark-1.5.3'...
+[1.689s] HEAD is now at c05843a [sysinfo] Fix CPU Frequency reading on AMD Ryzen CPU's (#1117)
+[1.805s] [ 37%] [34m[1mNo update step for 'benchmark-1.5.3'[0m
+[1.834s] [ 50%] [34m[1mPerforming patch step for 'benchmark-1.5.3'[0m
+[1.853s] [ 62%] [34m[1mPerforming configure step for 'benchmark-1.5.3'[0m
+[1.903s] -- The CXX compiler identification is GNU 11.4.0
+[1.908s] -- Detecting CXX compiler ABI info
+[1.959s] -- Detecting CXX compiler ABI info - done
+[1.964s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.964s] -- Detecting CXX compile features
+[1.965s] -- Detecting CXX compile features - done
+[1.965s] -- Failed to find LLVM FileCheck
+[1.967s] -- Found Git: /usr/bin/git (found version "2.34.1") 
+[1.977s] -- git Version: v1.5.3-dirty
+[1.977s] -- Version: 1.5.3
+[1.979s] -- Performing Test HAVE_CXX_FLAG_STD_CXX11
+[2.034s] -- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+[2.034s] -- Performing Test HAVE_CXX_FLAG_WALL
+[2.165s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[2.167s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[2.238s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[2.238s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[2.309s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[2.310s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[2.380s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[2.381s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[2.412s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[2.413s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[2.485s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[2.486s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[2.566s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[2.567s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[2.618s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[2.619s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[2.670s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[2.671s] -- Performing Test HAVE_CXX_FLAG_WD654
+[2.687s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[2.687s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[2.712s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[2.712s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[2.762s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[2.762s] -- Performing Test HAVE_STD_REGEX
+[2.762s] -- Performing Test HAVE_STD_REGEX
+[4.128s] -- Performing Test HAVE_STD_REGEX -- success
+[4.128s] -- Performing Test HAVE_GNU_POSIX_REGEX
+[4.128s] -- Performing Test HAVE_GNU_POSIX_REGEX
+[4.147s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[4.147s] -- Performing Test HAVE_POSIX_REGEX
+[4.147s] -- Performing Test HAVE_POSIX_REGEX
+[4.277s] -- Performing Test HAVE_POSIX_REGEX -- success
+[4.277s] -- Performing Test HAVE_STEADY_CLOCK
+[4.277s] -- Performing Test HAVE_STEADY_CLOCK
+[4.364s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[4.364s] -- Looking for C++ include pthread.h
+[4.418s] -- Looking for C++ include pthread.h - found
+[4.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.607s] -- Found Threads: TRUE  
+[4.621s] -- Configuring done
+[4.642s] -- Generating done
+[4.642s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build
+[4.745s] [ 75%] [34m[1mPerforming build step for 'benchmark-1.5.3'[0m
+[4.962s] [  4%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o[0m
+[4.976s] [  9%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o[0m
+[5.002s] [ 14%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o[0m
+[5.010s] [ 19%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o[0m
+[5.023s] [ 23%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o[0m
+[5.045s] [ 28%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o[0m
+[5.047s] [ 33%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o[0m
+[5.075s] [ 38%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o[0m
+[5.084s] [ 42%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/counter.cc.o[0m
+[5.091s] [ 47%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o[0m
+[5.126s] [ 52%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o[0m
+[5.173s] [ 57%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o[0m
+[5.198s] [ 61%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o[0m
+[5.200s] [ 66%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sleep.cc.o[0m
+[5.222s] [ 71%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o[0m
+[5.248s] [ 76%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o[0m
+[5.609s] [ 80%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/timers.cc.o[0m
+[5.637s] [ 85%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o[0m
+[8.376s] [ 90%] [32m[1mLinking CXX shared library libbenchmark.so[0m
+[8.546s] [ 90%] Built target benchmark
+[8.560s] [ 95%] [32mBuilding CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o[0m
+[8.882s] [100%] [32m[1mLinking CXX shared library libbenchmark_main.so[0m
+[9.080s] [100%] Built target benchmark_main
+[9.201s] [ 87%] [34m[1mPerforming install step for 'benchmark-1.5.3'[0m
+[9.281s] [35m[1mConsolidate compiler generated dependencies of target benchmark[0m
+[9.321s] [ 90%] Built target benchmark
+[9.370s] [35m[1mConsolidate compiler generated dependencies of target benchmark_main[0m
+[9.385s] [100%] Built target benchmark_main
+[9.400s] [36mInstall the project...[0m
+[9.408s] -- Install configuration: ""
+[9.409s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.5.3
+[9.412s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+[9.413s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+[9.413s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.5.3
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+[9.414s] -- Set runtime path of "/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.5.3" to ""
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+[9.414s] -- Installing: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[9.470s] [100%] [34m[1mCompleted 'benchmark-1.5.3'[0m
+[9.502s] [100%] Built target benchmark-1.5.3
+[9.584s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor -- -j16 -l16
+[9.606s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor
+[9.611s] -- Install configuration: ""
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include/benchmark
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include/benchmark/benchmark.h
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so.1
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/pkgconfig
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/pkgconfig/benchmark.pc
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark
+[9.612s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[9.614s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets.cmake
+[9.614s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfig.cmake
+[9.614s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[9.615s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so.1
+[9.615s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so.1.5.3
+[9.615s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so
+[9.615s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so
+[9.615s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so.1.5.3
+[9.616s] -- Installing: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/share/google_benchmark_vendor/package.xml
+[9.622s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor

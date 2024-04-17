@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ros_gz_example_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/ros_gz_example_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/ros_gz_example_description
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.347s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.612s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.612s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[0.612s]   project has asked CMake to find a package configuration file provided by
+[0.612s]   "ament_lint_auto", but CMake did not find one.
+[0.612s] 
+[0.612s]   Could not find a package configuration file provided by "ament_lint_auto"
+[0.612s]   with any of the following names:
+[0.612s] 
+[0.612s]     ament_lint_autoConfig.cmake
+[0.612s]     ament_lint_auto-config.cmake
+[0.612s] 
+[0.612s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[0.612s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[0.612s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[0.612s]   sure it has been installed.
+[0.612s] 
+[0.612s] [0m
+[0.612s] -- Configuring incomplete, errors occurred!
+[0.612s] See also "/home/nick/Robotics_Projects/furuta1/build/ros_gz_example_description/CMakeFiles/CMakeOutput.log".
+[0.615s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ros_gz_example_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/ros_gz_example_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/ros_gz_example_description

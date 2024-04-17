@@ -1,0 +1,1 @@
+/home/nick/Robotics_Projects/furuta1/build/ament_lint_auto/ament_cmake_environment_hooks/local_setup.zsh

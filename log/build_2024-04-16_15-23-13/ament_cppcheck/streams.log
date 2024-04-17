@@ -1,0 +1,37 @@
+[1.023s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/build --no-deps symlink_data
+[1.283s] running develop
+[1.283s] /home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.283s] !!
+[1.283s] 
+[1.283s]         ********************************************************************************
+[1.283s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.284s]         Instead, use pypa/build, pypa/installer or other
+[1.284s]         standards-based tools.
+[1.284s] 
+[1.284s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.284s]         ********************************************************************************
+[1.284s] 
+[1.284s] !!
+[1.284s]   easy_install.initialize_options(self)
+[1.447s] running egg_info
+[1.447s] creating ament_cppcheck.egg-info
+[1.458s] writing ament_cppcheck.egg-info/PKG-INFO
+[1.459s] writing dependency_links to ament_cppcheck.egg-info/dependency_links.txt
+[1.459s] writing entry points to ament_cppcheck.egg-info/entry_points.txt
+[1.459s] writing requirements to ament_cppcheck.egg-info/requires.txt
+[1.459s] writing top-level names to ament_cppcheck.egg-info/top_level.txt
+[1.460s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[1.488s] reading manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[1.488s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[1.501s] running build_ext
+[1.502s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck.egg-link (link to .)
+[1.502s] Installing ament_cppcheck script to /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/bin
+[1.502s] 
+[1.502s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck
+[1.502s] running symlink_data
+[1.502s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/share/ament_cppcheck
+[1.503s] creating /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/share/ament_index
+[1.503s] creating /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/share/ament_index/resource_index
+[1.503s] creating /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/share/ament_index/resource_index/packages
+[1.503s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/resource/ament_cppcheck -> /home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/share/ament_index/resource_index/packages
+[1.533s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck' returned '0': PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_cppcheck/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_cppcheck/build --no-deps symlink_data

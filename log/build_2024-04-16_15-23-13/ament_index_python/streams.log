@@ -1,0 +1,40 @@
+[3.381s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_index_python': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/nick/Robotics_Projects/furuta1/install/ament_copyright/bin:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/bin:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_index_python/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_index_python/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_index_python/build --no-deps symlink_data
+[3.683s] running develop
+[3.684s] /home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.684s] !!
+[3.684s] 
+[3.684s]         ********************************************************************************
+[3.684s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.684s]         Instead, use pypa/build, pypa/installer or other
+[3.684s]         standards-based tools.
+[3.684s] 
+[3.684s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.684s]         ********************************************************************************
+[3.684s] 
+[3.684s] !!
+[3.684s]   easy_install.initialize_options(self)
+[3.816s] running egg_info
+[3.816s] creating ament_index_python.egg-info
+[3.822s] writing ament_index_python.egg-info/PKG-INFO
+[3.822s] writing dependency_links to ament_index_python.egg-info/dependency_links.txt
+[3.822s] writing entry points to ament_index_python.egg-info/entry_points.txt
+[3.822s] writing requirements to ament_index_python.egg-info/requires.txt
+[3.823s] writing top-level names to ament_index_python.egg-info/top_level.txt
+[3.823s] writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[3.841s] reading manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[3.841s] writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[3.851s] running build_ext
+[3.851s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/lib/python3.10/site-packages/ament_index_python.egg-link (link to .)
+[3.852s] Installing ament_index script to /home/nick/Robotics_Projects/furuta1/install/ament_index_python/bin
+[3.852s] 
+[3.852s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_index_python
+[3.852s] running symlink_data
+[3.853s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/package.xml -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python
+[3.853s] creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python/environment
+[3.853s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/completion/ament_index-argcomplete.bash -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python/environment
+[3.853s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/completion/ament_index-argcomplete.zsh -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index_python/environment
+[3.853s] creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index
+[3.853s] creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index/resource_index
+[3.853s] creating /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index/resource_index/packages
+[3.853s] symbolically linking /home/nick/Robotics_Projects/furuta1/build/ament_index_python/resource/ament_index_python -> /home/nick/Robotics_Projects/furuta1/install/ament_index_python/share/ament_index/resource_index/packages
+[3.882s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/ament_index_python' returned '0': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/nick/Robotics_Projects/furuta1/install/ament_copyright/bin:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/bin:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_index_python/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_index_python/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_copyright:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_index_python/build --no-deps symlink_data

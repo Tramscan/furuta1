@@ -1,0 +1,175 @@
+[0.030s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/home/nick/Robotics_Projects/furuta1/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/opt/ros/humble PYTHONPATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/nick/Robotics_Projects/furuta1/build/ament_package:/home/nick/Robotics_Projects/furuta1/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ros2/rosbag2/shared_queues_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/shared_queues_vendor
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.8 (/home/nick/Robotics_Projects/furuta1/install/ament_cmake/share/ament_cmake/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.609s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.690s] -- Configuring done
+[0.695s] -- Generating done
+[0.695s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor
+[0.725s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor' returned '0': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/home/nick/Robotics_Projects/furuta1/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/opt/ros/humble PYTHONPATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/nick/Robotics_Projects/furuta1/build/ament_package:/home/nick/Robotics_Projects/furuta1/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ros2/rosbag2/shared_queues_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/shared_queues_vendor
+[0.726s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/home/nick/Robotics_Projects/furuta1/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_gen_version_h:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_target_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_targets:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_interfaces:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_dependencies:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_version:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_python:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_link_flags:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_libraries:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_include_directories:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_export_definitions:/home/nick/Robotics_Projects/furuta1/install/ament_cmake_core:/opt/ros/humble PYTHONPATH=/home/nick/Robotics_Projects/furuta1/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/nick/Robotics_Projects/furuta1/build/ament_package:/home/nick/Robotics_Projects/furuta1/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor -- -j16 -l16
+[0.748s] [  6%] [34m[1mCreating directories for 'ext-singleproducerconsumer'[0m
+[0.749s] [ 12%] [34m[1mCreating directories for 'ext-concurrentqueue'[0m
+[0.809s] [ 18%] [34m[1mPerforming download step (download, verify and extract) for 'ext-concurrentqueue'[0m
+[0.811s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'ext-singleproducerconsumer'[0m
+[0.817s] -- Downloading...
+[0.817s]    dst='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[0.817s]    timeout='60 seconds'
+[0.817s]    inactivity timeout='none'
+[0.817s] -- Using src='https://github.com/cameron314/concurrentqueue/archive/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[0.819s] -- Downloading...
+[0.819s]    dst='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[0.819s]    timeout='60 seconds'
+[0.819s]    inactivity timeout='none'
+[0.819s] -- Using src='https://github.com/cameron314/readerwriterqueue/archive/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[1.107s] -- [download 17% complete]
+[1.108s] -- [download 19% complete]
+[1.133s] -- [download 54% complete]
+[1.133s] -- [download 0% complete]
+[1.136s] -- [download 63% complete]
+[1.153s] -- [download 100% complete]
+[1.153s] -- verifying file...
+[1.153s]        file='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[1.154s] -- Downloading... done
+[1.159s] -- [download 1% complete]
+[1.159s] -- [download 2% complete]
+[1.166s] -- extracting...
+[1.166s]      src='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[1.166s]      dst='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/singleproducerconsumer/src/ext-singleproducerconsumer'
+[1.166s] -- extracting... [tar xfz]
+[1.175s] -- extracting... [analysis]
+[1.175s] -- extracting... [rename]
+[1.175s] -- extracting... [clean up]
+[1.175s] -- extracting... done
+[1.182s] -- [download 3% complete]
+[1.184s] -- [download 4% complete]
+[1.186s] [ 31%] [34m[1mNo update step for 'ext-singleproducerconsumer'[0m
+[1.201s] [ 37%] [34m[1mNo patch step for 'ext-singleproducerconsumer'[0m
+[1.210s] -- [download 5% complete]
+[1.210s] -- [download 6% complete]
+[1.210s] -- [download 7% complete]
+[1.210s] -- [download 8% complete]
+[1.215s] [ 43%] [34m[1mNo configure step for 'ext-singleproducerconsumer'[0m
+[1.231s] [ 50%] [34m[1mNo build step for 'ext-singleproducerconsumer'[0m
+[1.235s] -- [download 10% complete]
+[1.235s] -- [download 11% complete]
+[1.236s] -- [download 12% complete]
+[1.236s] -- [download 13% complete]
+[1.237s] -- [download 14% complete]
+[1.238s] -- [download 15% complete]
+[1.248s] [ 56%] [34m[1mNo install step for 'ext-singleproducerconsumer'[0m
+[1.255s] -- [download 16% complete]
+[1.256s] -- [download 17% complete]
+[1.256s] -- [download 18% complete]
+[1.260s] -- [download 19% complete]
+[1.260s] -- [download 20% complete]
+[1.260s] -- [download 21% complete]
+[1.264s] [ 62%] [34m[1mCompleted 'ext-singleproducerconsumer'[0m
+[1.276s] -- [download 22% complete]
+[1.278s] -- [download 23% complete]
+[1.278s] -- [download 24% complete]
+[1.279s] -- [download 25% complete]
+[1.283s] [ 62%] Built target ext-singleproducerconsumer
+[1.285s] -- [download 26% complete]
+[1.285s] -- [download 27% complete]
+[1.286s] -- [download 28% complete]
+[1.286s] -- [download 29% complete]
+[1.300s] -- [download 30% complete]
+[1.300s] -- [download 31% complete]
+[1.301s] -- [download 32% complete]
+[1.301s] -- [download 33% complete]
+[1.308s] -- [download 34% complete]
+[1.308s] -- [download 35% complete]
+[1.309s] -- [download 36% complete]
+[1.309s] -- [download 37% complete]
+[1.323s] -- [download 38% complete]
+[1.324s] -- [download 39% complete]
+[1.324s] -- [download 40% complete]
+[1.324s] -- [download 41% complete]
+[1.339s] -- [download 42% complete]
+[1.339s] -- [download 43% complete]
+[1.339s] -- [download 44% complete]
+[1.339s] -- [download 45% complete]
+[1.350s] -- [download 46% complete]
+[1.350s] -- [download 47% complete]
+[1.351s] -- [download 48% complete]
+[1.351s] -- [download 49% complete]
+[1.364s] -- [download 50% complete]
+[1.364s] -- [download 52% complete]
+[1.365s] -- [download 53% complete]
+[1.376s] -- [download 54% complete]
+[1.376s] -- [download 55% complete]
+[1.376s] -- [download 56% complete]
+[1.376s] -- [download 57% complete]
+[1.377s] -- [download 58% complete]
+[1.385s] -- [download 59% complete]
+[1.389s] -- [download 60% complete]
+[1.389s] -- [download 61% complete]
+[1.389s] -- [download 62% complete]
+[1.395s] -- [download 63% complete]
+[1.396s] -- [download 64% complete]
+[1.396s] -- [download 65% complete]
+[1.400s] -- [download 66% complete]
+[1.400s] -- [download 67% complete]
+[1.401s] -- [download 68% complete]
+[1.409s] -- [download 69% complete]
+[1.409s] -- [download 70% complete]
+[1.409s] -- [download 71% complete]
+[1.417s] -- [download 72% complete]
+[1.421s] -- [download 73% complete]
+[1.421s] -- [download 74% complete]
+[1.422s] -- [download 75% complete]
+[1.422s] -- [download 76% complete]
+[1.422s] -- [download 77% complete]
+[1.429s] -- [download 78% complete]
+[1.430s] -- [download 79% complete]
+[1.430s] -- [download 80% complete]
+[1.435s] -- [download 81% complete]
+[1.442s] -- [download 82% complete]
+[1.449s] -- [download 83% complete]
+[1.449s] -- [download 84% complete]
+[1.449s] -- [download 85% complete]
+[1.450s] -- [download 86% complete]
+[1.450s] -- [download 87% complete]
+[1.457s] -- [download 88% complete]
+[1.457s] -- [download 89% complete]
+[1.457s] -- [download 90% complete]
+[1.457s] -- [download 91% complete]
+[1.468s] -- [download 92% complete]
+[1.475s] -- [download 93% complete]
+[1.475s] -- [download 94% complete]
+[1.475s] -- [download 95% complete]
+[1.476s] -- [download 96% complete]
+[1.476s] -- [download 97% complete]
+[1.476s] -- [download 98% complete]
+[1.483s] -- [download 99% complete]
+[1.483s] -- [download 100% complete]
+[1.484s] -- verifying file...
+[1.484s]        file='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[1.487s] -- Downloading... done
+[1.500s] -- extracting...
+[1.500s]      src='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+[1.500s]      dst='/home/nick/Robotics_Projects/furuta1/build/shared_queues_vendor/concurrentqueue/src/ext-concurrentqueue'
+[1.500s] -- extracting... [tar xfz]
+[1.579s] -- extracting... [analysis]
+[1.579s] -- extracting... [rename]
+[1.579s] -- extracting... [clean up]
+[1.579s] -- extracting... done
+[1.590s] [ 68%] [34m[1mNo update step for 'ext-concurrentqueue'[0m
+[1.605s] [ 75%] [34m[1mNo patch step for 'ext-concurrentqueue'[0m
+[1.621s] [ 81%] [34m[1mNo configure step for 'ext-concurrentqueue'[0m
+[1.636s] [ 87%] [34m[1mNo build step for 'ext-concurrentqueue'[0m
+[1.652s] [ 93%] [34m[1mNo install step for 'ext-concurrentqueue'[0m
+[1.669s] [100%] [34m[1mCompleted 'ext-concurrentqueue'[0m
+[1.689s] [100%] Built target ext-concurrentqueue

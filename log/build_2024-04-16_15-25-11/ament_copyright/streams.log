@@ -1,0 +1,18 @@
+[0.412s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/ament_copyright': AMENT_PREFIX_PATH=/home/nick/Robotics_Projects/furuta1/install/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_lint PATH=/home/nick/Robotics_Projects/furuta1/install/ament_pep257/bin:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nick/Robotics_Projects/furuta1/build/ament_copyright/prefix_override:/home/nick/Robotics_Projects/furuta1/install/ament_copyright/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_pep257:/home/nick/Robotics_Projects/furuta1/install/ament_pep257/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_flake8:/home/nick/Robotics_Projects/furuta1/install/ament_flake8/lib/python3.10/site-packages:/home/nick/Robotics_Projects/furuta1/build/ament_lint:/home/nick/Robotics_Projects/furuta1/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nick/Robotics_Projects/furuta1/build/ament_copyright/build --no-deps symlink_data
+[0.529s] running develop
+[0.529s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.529s]   warnings.warn(
+[0.579s] running egg_info
+[0.579s] writing ament_copyright.egg-info/PKG-INFO
+[0.579s] writing dependency_links to ament_copyright.egg-info/dependency_links.txt
+[0.579s] writing entry points to ament_copyright.egg-info/entry_points.txt
+[0.579s] writing requirements to ament_copyright.egg-info/requires.txt
+[0.579s] writing top-level names to ament_copyright.egg-info/top_level.txt
+[0.581s] reading manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.582s] writing manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.582s] running build_ext
+[0.582s] Creating /home/nick/Robotics_Projects/furuta1/install/ament_copyright/lib/python3.10/site-packages/ament-copyright.egg-link (link to .)
+[0.583s] Installing ament_copyright script to /home/nick/Robotics_Projects/furuta1/install/ament_copyright/bin
+[0.583s] 
+[0.583s] Installed /home/nick/Robotics_Projects/furuta1/build/ament_copyright
+[0.583s] running symlink_data

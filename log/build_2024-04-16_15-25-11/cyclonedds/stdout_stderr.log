@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Setting build type to 'RelWithDebInfo' as none was specified.
+-- Looking for getopt.h
+-- Looking for getopt.h - found
+-- Building with OpenSSL support
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Looking for stpcpy
+-- Looking for stpcpy - found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Looking for gethostname
+-- Looking for gethostname - found
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Check size of struct sockaddr_in6
+-- Check size of struct sockaddr_in6 - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for clock_gettime in c
+-- Looking for clock_gettime in c - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/cyclonedds

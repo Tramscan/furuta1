@@ -1,0 +1,37 @@
+[0.365s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ament/google_benchmark_vendor -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[0.382s] -- Configuring done
+[0.383s] -- Generating done
+[0.383s] [33mCMake Warning:
+[0.383s]   Manually-specified variables were not used by the project:
+[0.383s] 
+[0.383s]     BUILD_TESTING
+[0.383s] 
+[0.383s] [0m
+[0.384s] -- Build files have been written to: /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor
+[0.468s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nick/Robotics_Projects/furuta1/src/ament/google_benchmark_vendor -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[0.469s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor -- -j16 -l16
+[0.507s] [100%] Built target benchmark-1.5.3
+[0.521s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor -- -j16 -l16
+[0.545s] Invoking command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor
+[0.561s] -- Install configuration: ""
+[0.562s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor
+[0.562s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include
+[0.562s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include/benchmark
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/include/benchmark/benchmark.h
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so.1
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/pkgconfig
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/pkgconfig/benchmark.pc
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets.cmake
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfig.cmake
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so.1
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so.1.5.3
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark_main.so
+[0.563s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/lib/libbenchmark.so.1.5.3
+[0.564s] -- Up-to-date: /home/nick/Robotics_Projects/furuta1/install/google_benchmark_vendor/share/google_benchmark_vendor/package.xml
+[0.564s] Invoked command in '/home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/google_benchmark_vendor

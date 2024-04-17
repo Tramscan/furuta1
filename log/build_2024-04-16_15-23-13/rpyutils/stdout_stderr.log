@@ -1,0 +1,32 @@
+running develop
+/home/nick/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating rpyutils.egg-info
+writing rpyutils.egg-info/PKG-INFO
+writing dependency_links to rpyutils.egg-info/dependency_links.txt
+writing top-level names to rpyutils.egg-info/top_level.txt
+writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+reading manifest file 'rpyutils.egg-info/SOURCES.txt'
+writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/Robotics_Projects/furuta1/install/rpyutils/lib/python3.10/site-packages/rpyutils.egg-link (link to .)
+
+Installed /home/nick/Robotics_Projects/furuta1/build/rpyutils
+running symlink_data
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/rpyutils/package.xml -> /home/nick/Robotics_Projects/furuta1/install/rpyutils/share/rpyutils
+creating /home/nick/Robotics_Projects/furuta1/install/rpyutils/share/ament_index
+creating /home/nick/Robotics_Projects/furuta1/install/rpyutils/share/ament_index/resource_index
+creating /home/nick/Robotics_Projects/furuta1/install/rpyutils/share/ament_index/resource_index/packages
+symbolically linking /home/nick/Robotics_Projects/furuta1/build/rpyutils/resource/rpyutils -> /home/nick/Robotics_Projects/furuta1/install/rpyutils/share/ament_index/resource_index/packages

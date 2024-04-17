@@ -1,0 +1,4 @@
+Invoking command in '/home/nick/Robotics_Projects/furuta1/build/urdfdom_headers': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/urdfdom_headers -- -j16 -l16
+Invoked command in '/home/nick/Robotics_Projects/furuta1/build/urdfdom_headers' returned '0': /usr/bin/cmake --build /home/nick/Robotics_Projects/furuta1/build/urdfdom_headers -- -j16 -l16
+Invoking command in '/home/nick/Robotics_Projects/furuta1/build/urdfdom_headers': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/urdfdom_headers
+Invoked command in '/home/nick/Robotics_Projects/furuta1/build/urdfdom_headers' returned '0': /usr/bin/cmake --install /home/nick/Robotics_Projects/furuta1/build/urdfdom_headers
